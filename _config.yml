@@ -8,7 +8,7 @@
 
 # Basic Site Settings
 locale                   : "en-US"
-site_theme               : "air" # Currently available options are "default", "air"
+site_theme               : "default" # Currently available options are "default", "air"
 title                    : "Dian Jin"
 title_separator          : "-"
 name                     : &name "Dian Jin"
@@ -30,7 +30,7 @@ author:
   location         : "Madison, Wisconsin"
   employer         : "University of Wisconsin-Madison"
   uri              : # URL
-  email            : "djin38@wisc.edu" 
+  email            : # URL
 
   # Academic websites
   academia         : # URL
