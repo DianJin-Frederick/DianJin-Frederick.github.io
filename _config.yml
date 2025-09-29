@@ -8,11 +8,11 @@
 
 # Basic Site Settings
 locale                   : "en-US"
-site_theme               : "default" # Currently available options are "default", "air"
-title                    : "Dian Jin / Site Title"
+site_theme               : "air" # Currently available options are "default", "air"
+title                    : "Dian Jin"
 title_separator          : "-"
 name                     : &name "Dian Jin"
-description              : &description "Dian Jin's website"   # Update this with a general description of your site, this is the default if not overridden by a page
+description              : &description "Dian Jin's homepage"   # Update this with a general description of your site, this is the default if not overridden by a page
 url                      : https://dianjin-frederick.github.io/ # The base hostname & protocol for your site e.g. "https://[your GitHub username].github.io",
                                                            # or if you already have some other page hosted on Github then use "https://[your GitHub username].github.io/[Your Repo Name]"
 baseurl                  : "" # the subpath of your site, e.g. "/blog"
@@ -26,7 +26,7 @@ author:
   avatar           : "profile.png"
   name             : "Dian Jin"
   pronouns         : # example: "she/her"  
-  bio              : "Short biography for the left-hand sidebar"
+  bio              : djin38@wisc.edu
   location         : "Madison, Wisconsin"
   employer         : "University of Wisconsin-Madison"
   uri              : # URL
@@ -48,7 +48,7 @@ author:
   bitbucket        : # Username - Update with your username on the site
   codepen          : # Username
   dribbble         : # Username
-  github           : "academicpages"
+  github           : "https://github.com/DianJin-Frederick"
   kaggle           : # Username  
   stackoverflow    : # User number or user number and name (i.e., use "1" or "1/jeff-atwood")    
 
