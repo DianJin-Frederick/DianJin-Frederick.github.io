@@ -10,12 +10,16 @@
 main:
   - title: "Publications"
     url: /publications/
-    
+  
+  - title: "Teaching"
+    url: /teaching/
+
   # - title: "CV"
   #   url: /cv-json/
   
   - title: "Photography"
     url: /photography/
 
-  - title: "Guide"
-    url: /markdown/
+
+  # - title: "Guide"
+  #   url: /markdown/

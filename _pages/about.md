@@ -8,9 +8,14 @@ redirect_from:
 ---
 Hi, I am Dian Jin (金典), a third-year PhD student in Electrical and Computer Engineering at UW-Madison. I work with Prof. [Jeremy Coulson](https://jeremycoulson.github.io/) in data-driven control. Beyond research, I am passionate about photography and outdoor exploration — often combining my academic journey with travel and visual storytelling.
 
-## Research Interest
-- data-driven control
-- optimization on matrix manifolds
+## 📖 Research Interest
+- Data-Driven Control
+  - Data-enabled Predictive Control (DeePC)
+  - Subspace learning for data-driven simulation
+- Optimization on Matrix Manifolds
+  - Riemannian gradient descent on flag manifolds
+- Large Language Models
+  - Parameter Efficient Fine Tuning (PEFT)
 
 
 
