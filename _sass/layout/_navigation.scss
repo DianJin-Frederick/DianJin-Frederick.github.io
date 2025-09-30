@@ -442,3 +442,13 @@
     }
   }
 }
+
+/* Custom navbar font */
+.navbar, 
+.navbar a, 
+.navbar .nav-link, 
+.site-title {
+  font-family: 'Lato', sans-serif !important;  /* or any font you loaded in custom.html */
+  font-weight: 600;   /* semi-bold */
+  font-size: 18px;    /* adjust size */
+}
