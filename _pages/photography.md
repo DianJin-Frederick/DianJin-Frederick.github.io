@@ -10,17 +10,49 @@ Here are some of my favorite photographs, all taken by me.
 ---
 
 ## Landscapes
-<p align="center">
-  <img src="/images/photography/DSC_0668.png" alt="Landscape 1" height="30" />
-  <br><em>Glacier National Park</em>
-</p>
+<div class="swiper mySwiper">
+  <div class="swiper-wrapper">
+    <div class="swiper-slide">
+      <img src="/images/photography/DSC_0668.jpg" alt="Glacier National Park" loading="lazy">
+      <div class="cap">Glacier National Park</div>
+    </div>
+    <div class="swiper-slide">
+      <img src="/images/photography/DSC_5425-2.jpg" alt="Arches National Park" loading="lazy">
+      <div class="cap">Arches National Park</div>
+    </div>
+    <div class="swiper-slide">
+      <img src="/images/photography/canyonlands_island_sky.jpg" alt="Canyonlands National Park" loading="lazy">
+      <div class="cap">Canyonlands National Park</div>
+    </div>
+  </div>
 
-<p align="center">
-  <img src="/images/photography/DSC_5425-2.jpg" alt="Landscape 2" height="50px">
-  <br><em>Arches National Park</em>
-</p>
+  <!-- Navigation controls -->
+  <div class="swiper-button-prev"></div>
+  <div class="swiper-button-next"></div>
+  <div class="swiper-pagination"></div>
+</div>
 
-<p align="center">
-  <img src="/images/photography/canyonlands_island_sky.jpg" alt="Landscape 3" height="100px">
-  <br><em>Canyonlands National Park</em>
-</p>
+<script>
+  document.addEventListener('DOMContentLoaded', function () {
+    const swiper = new Swiper('.mySwiper', {
+      loop: true,
+      spaceBetween: 20,
+      centeredSlides: true,
+      slidesPerView: 1,
+      keyboard: { enabled: true },
+      // scope the selectors to THIS container to avoid collisions
+      navigation: {
+        nextEl: '.mySwiper .swiper-button-next',
+        prevEl: '.mySwiper .swiper-button-prev',
+      },
+      pagination: {
+        el: '.mySwiper .swiper-pagination',
+        clickable: true,
+      },
+      lazy: true,
+      breakpoints: {
+        768: { slidesPerView: 1.05 },
+      }
+    });
+  });
+</script>
