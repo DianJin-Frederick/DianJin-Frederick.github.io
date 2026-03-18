@@ -40,7 +40,6 @@ Here are some of my favorite photographs, all taken by me.
       centeredSlides: true,
       slidesPerView: 1,
       keyboard: { enabled: true },
-      // scope the selectors to THIS container to avoid collisions
       navigation: {
         nextEl: '.mySwiper .swiper-button-next',
         prevEl: '.mySwiper .swiper-button-prev',

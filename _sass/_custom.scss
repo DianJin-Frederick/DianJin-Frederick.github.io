@@ -1,24 +1,24 @@
 /* === Custom main content font overrides === */
 .page__content {
-  font-size: 0.9rem;      /* ~17–18px, tweak as needed */
+  font-size: 0.8rem;
   line-height: 1.6;
   letter-spacing: 0.005em;
 }
 
 .page__content p,
 .page__content li {
-  font-size: 0.9rem;
+  font-size: 0.8rem;
   line-height: 1.6;
 }
 
-.page__content h1 { font-size: 1.6rem; font-weight: 600; }
-.page__content h2 { font-size: 1.2rem; font-weight: 600; }
-.page__content h3 { font-size: 1.0rem; font-weight: 600; }
+.page__content h1 { font-size: 1.5rem; font-weight: 600; }
+.page__content h2 { font-size: 1.1rem; font-weight: 600; }
+.page__content h3 { font-size: 0.95rem; font-weight: 600; }
 
 /* Optional: keep sidebar small */
 .sidebar,
 .author__content {
-  font-size: 0.95rem;
+  font-size: 0.9rem;
 }
 
 .mySwiper {
