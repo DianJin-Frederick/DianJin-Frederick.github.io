@@ -1,19 +1,25 @@
 /* === Custom main content font overrides === */
-.page__content {
+.page__content,
+.archive {
   font-size: 0.8rem;
   line-height: 1.6;
   letter-spacing: 0.005em;
 }
 
 .page__content p,
-.page__content li {
+.page__content li,
+.archive p,
+.archive li {
   font-size: 0.8rem;
   line-height: 1.6;
 }
 
-.page__content h1 { font-size: 1.5rem; font-weight: 600; }
-.page__content h2 { font-size: 1.1rem; font-weight: 600; }
-.page__content h3 { font-size: 0.95rem; font-weight: 600; }
+.page__content h1,
+.archive h1 { font-size: 1.5rem; font-weight: 600; }
+.page__content h2,
+.archive h2 { font-size: 1.1rem; font-weight: 600; }
+.page__content h3,
+.archive h3 { font-size: 0.95rem; font-weight: 600; }
 
 /* Optional: keep sidebar small */
 .sidebar,
