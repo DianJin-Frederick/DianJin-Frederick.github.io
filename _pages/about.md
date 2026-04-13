@@ -7,8 +7,9 @@ redirect_from:
   - /about.html
 ---
 Hi, I am Dian Jin (金典), a third-year PhD student in Electrical and Computer Engineering at UW-Madison, advised by Prof. [Jeremy Coulson](https://jeremycoulson.github.io/).
-My main research interests include robust data-driven control, optimization on manifolds, and mechanistic interpretibility of large language models. 
-If you are interested in collaboration, feel free to email me.
+My main research interests include learning-based control, optimization on manifolds. 
+In 2022 I received my Bachelor’s degree in Mathematics from Soochow University. 
+I received my Master’s degree in Mathematics from UW-Madison in 2023.
 Beyond research, I am passionate about photography and outdoor exploration.
 
 ## 📖 Research Interest
@@ -29,4 +30,4 @@ Beyond research, I am passionate about photography and outdoor exploration.
   Haixin Wang, Xinlong Yang, Jianlong Chang, **Dian Jin**, Jinan Sun, Shikun Zhang, Xiao Luo, Qi Tian. *Advances in Neural Information Processing Systems*, 36:15752-15774, 2023.
 
 ## 📄 Academic Services
-- Reviewer for: L4DC'25, L4DC'26, Automatica
+- Reviewer for: L4DC'25, L4DC'26, CDC'26, Automatica
