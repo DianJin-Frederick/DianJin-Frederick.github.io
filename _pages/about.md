@@ -23,9 +23,9 @@ Beyond research, I am passionate about photography and outdoor exploration.
   - Mechanistic interpretability and low-rank structure in language model representations
 
 ## 📝 Recent Publications
-- [On the sensitivity of the subspace predictor to behavioral perturbations](https://arxiv.org/abs/2603.17256) **Dian Jin**, Jeremy Coulson. *arXiv preprint arXiv:2603.17256*. Accepted at *IEEE Control Systems Letters*.
+- [On the sensitivity of the subspace predictor to behavioral perturbations](https://arxiv.org/abs/2603.17256) **Dian Jin**, Jeremy Coulson. *arXiv preprint arXiv:2603.17256*.
 - [Online subspace learning on flag manifolds for system identification](https://arxiv.org/abs/2511.06416)
-  **Dian Jin**, Jeremy Coulson. *arXiv preprint arXiv:2511.06416*, 2025. Accepted at *8th Annual Learning for Dynamics & Control Conference*.
+  **Dian Jin**, Jeremy Coulson. *arXiv preprint arXiv:2511.06416*, 2025.
 - [Parameter-efficient tuning of large-scale multimodal foundation model](https://proceedings.neurips.cc/paper_files/paper/2023/hash/32ebb6b560ee58abbdae834e5f37cb5d-Abstract-Conference.html)
   Haixin Wang, Xinlong Yang, Jianlong Chang, **Dian Jin**, Jinan Sun, Shikun Zhang, Xiao Luo, Qi Tian. *Advances in Neural Information Processing Systems*, 36:15752-15774, 2023.
 
