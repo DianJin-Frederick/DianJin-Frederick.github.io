@@ -13,10 +13,11 @@ $doc-font-size              : 16;
 $paragraph-indent           : false; // true, false (default)
 $indent-var                 : 1.3em;
 
-/* System typefaces */
-$serif                      : Georgia, Times, serif;
-$sans-serif                 : -apple-system, ".SFNSText-Regular", "San Francisco", "Roboto", "Segoe UI", "Helvetica Neue", "Lucida Grande", Arial, sans-serif;
-$monospace                  : Monaco, Consolas, "Lucida Console", monospace;
+/* Site typeface */
+$lyon-text                  : "Lyon Text", "Lyon-Text", Georgia, serif;
+$serif                      : $lyon-text;
+$sans-serif                 : $lyon-text;
+$monospace                  : $lyon-text;
 
 /* Sans serif typefaces */
 $sans-serif-narrow          : $sans-serif;
@@ -39,12 +40,9 @@ $type-size-6                : 0.75em;   // ~12px
 $type-size-7                : 0.6875em; // ~11px
 $type-size-8                : 0.625em;  // ~10px
 
-$global-font-family  : 'Inter', -apple-system, BlinkMacSystemFont, 'Segoe UI',
-                       'Helvetica Neue', Arial, sans-serif;
-$header-font-family  : 'Inter', -apple-system, BlinkMacSystemFont, 'Segoe UI',
-                       'Helvetica Neue', Arial, sans-serif;
-$caption-font-family : 'Inter', -apple-system, BlinkMacSystemFont, 'Segoe UI',
-                       'Helvetica Neue', Arial, sans-serif;
+$global-font-family  : $lyon-text;
+$header-font-family  : $lyon-text;
+$caption-font-family : $lyon-text;
 
 /* ==========================================================================
    Breakpoints
@@ -105,4 +103,3 @@ $vimeo-color                : #1ab7ea;
 $vine-color                 : #00bf8f;
 $youtube-color              : #bb0000;
 $xing-color                 : #006567;
-   
