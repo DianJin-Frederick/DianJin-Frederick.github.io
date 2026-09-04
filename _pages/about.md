@@ -6,21 +6,40 @@ redirect_from:
   - /about/
   - /about.html
 ---
-Hi, I am Dian Jin (金典), a third-year PhD student in Electrical and Computer Engineering at UW-Madison, advised by Prof. [Jeremy Coulson](https://jeremycoulson.github.io/).
-My main research interests include learning-based control, optimization on manifolds. 
-In 2022 I received my Bachelor’s degree in Mathematics from Soochow University. 
-I received my Master’s degree in Mathematics from UW-Madison in 2023.
-Beyond research, I am passionate about photography and outdoor exploration.
+Hi, I am Dian Jin (金典), a Ph.D. student in Electrical and Computer
+Engineering at the University of Wisconsin–Madison, advised by
+Prof. [Jeremy Coulson](https://jeremycoulson.github.io/).
 
-## 📖 Research Interest
-- Data-Driven Control
-  - Behavioral system theory
-  - Online learning for dynamical systems
-  - Uncertainty quantification
-- Optimization on Matrix Manifolds
-  - Subspace learning and optimization on Grassmannian and flag manifold
-- Large Language Models
-  - Mechanistic interpretability and low-rank structure in language model representations
+My research lies at the intersection of machine learning, optimization,
+and dynamical systems. I develop data-driven methods for learning predictive
+representations from trajectory data, quantifying their uncertainty, and using
+them for efficient robotic control. My work combines theoretical analysis,
+algorithm development, and computational experiments.
+I received my B.S. in Mathematics from Soochow University in 2022 and my
+M.A. in Mathematics from UW–Madison in 2023. Outside research, I enjoy
+photography and exploring the outdoors.
+
+## 📖 Research Interests
+
+- **Machine Learning for Dynamical Systems**
+  - Online representation and subspace learning
+  - Data-driven prediction and control
+  - Uncertainty quantification and robustness
+
+- **Optimization and Algorithmic Foundations**
+  - Online and nonconvex optimization
+  - Optimization on Grassmann and flag manifolds
+  - Low-rank methods for high-dimensional data
+
+- **Robot Learning and Control**
+  - Learning-based and data-enabled predictive control
+  - Learning from offline demonstrations
+  - Robotic manipulation and simulation
+
+- **Multimodal Foundation Models**
+  - Parameter-efficient adaptation
+  - Low-rank representation learning
+  - Vision–language modeling
 
 ## 📝 Recent Publications
 - [On the sensitivity of the subspace predictor to behavioral perturbations](https://arxiv.org/abs/2603.17256) **Dian Jin**, Jeremy Coulson. *IEEE Control Systems Letters*.
