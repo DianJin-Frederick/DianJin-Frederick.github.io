@@ -15,8 +15,10 @@ $indent-var                 : 1.3em;
 
 /* Site typeface */
 $lyon-text                  : "Lyon Text", "Lyon-Text", Georgia, serif;
-$serif                      : $lyon-text;
-$sans-serif                 : $lyon-text;
+$newsreader                 : "Newsreader", Georgia, serif;
+$manrope                    : "Manrope", "Helvetica Neue", Arial, sans-serif;
+$serif                      : $newsreader;
+$sans-serif                 : $manrope;
 $monospace                  : $lyon-text;
 
 /* Sans serif typefaces */
@@ -40,9 +42,9 @@ $type-size-6                : 0.75em;   // ~12px
 $type-size-7                : 0.6875em; // ~11px
 $type-size-8                : 0.625em;  // ~10px
 
-$global-font-family  : $lyon-text;
-$header-font-family  : $lyon-text;
-$caption-font-family : $lyon-text;
+$global-font-family  : $manrope;
+$header-font-family  : $newsreader;
+$caption-font-family : $manrope;
 
 /* ==========================================================================
    Breakpoints

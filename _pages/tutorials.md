@@ -35,5 +35,19 @@ During my Master’s studies in Mathematics, I recorded a series of lectures to 
     </div>
     <div class="tutorial-card__text">Linear Algebra Done Right</div>
   </a>
+
+  <a class="tutorial-card" href="https://www.bilibili.com/video/BV1T44y1Y7vN/">
+    <div class="tutorial-card__image">
+      <img src="/images/tutorials/probability-theory.jpg" alt="Measure-Theoretic Probability">
+    </div>
+    <div class="tutorial-card__text">Measure-Theoretic Probability</div>
+  </a>
+
+  <a class="tutorial-card" href="https://www.bilibili.com/video/BV1zu41127Rs/">
+    <div class="tutorial-card__image">
+      <img src="/images/tutorials/group-theory.jpg" alt="Algebra: Basic Group Theory">
+    </div>
+    <div class="tutorial-card__text">Algebra: Basic Group Theory</div>
+  </a>
 </div>
 
