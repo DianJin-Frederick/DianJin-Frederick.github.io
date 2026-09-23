@@ -28,7 +28,7 @@ the outdoors.
 <ul class="news-list">
   <li>
     <span class="news-date">Jul 2026</span>
-    <span class="news-text">Paper <a href="https://arxiv.org/abs/2603.17256">“On the sensitivity of the subspace predictor to behavioral perturbations”</a> accepted to <strong>IEEE Control Systems Letters (L-CSS)</strong>, to be presented in the invited session <em>Safe Planning and Control with Uncertainty Quantification</em> at the <strong>65th IEEE Conference on Decision and Control (CDC 2026)</strong>, Honolulu, Hawaii.</span>
+    <span class="news-text">Paper <a href="https://arxiv.org/abs/2603.17256">“On the sensitivity of the subspace predictor to behavioral perturbations”</a> accepted to <strong>IEEE Control Systems Letters (L-CSS)</strong>, with an oral presentation in the invited session <em>Safe Planning and Control with Uncertainty Quantification</em> at the <strong>65th IEEE Conference on Decision and Control (CDC 2026)</strong>, Honolulu, Hawaii.</span>
   </li>
   <li>
     <span class="news-date">Jan 2026</span>
@@ -54,7 +54,7 @@ their own behavior from trajectory data and use them for planning and control**:
   predictions and control.
 
 ## Recent Publications
-- [On the sensitivity of the subspace predictor to behavioral perturbations](https://arxiv.org/abs/2603.17256) **Dian Jin**, Jeremy Coulson. *IEEE Control Systems Letters (L-CSS)*, 2026. To be presented at *CDC 2026*.
+- [On the sensitivity of the subspace predictor to behavioral perturbations](https://arxiv.org/abs/2603.17256) **Dian Jin**, Jeremy Coulson. *IEEE Control Systems Letters (L-CSS)*, 2026. Oral presentation at *CDC 2026* (invited session).
 - [Online subspace learning on flag manifolds for system identification](https://arxiv.org/abs/2511.06416)
   **Dian Jin**, Jeremy Coulson. *Proceedings of the 8th Annual Learning for Dynamics and Control Conference (L4DC)*, PMLR 331:2138–2150, 2026. [[PMLR]](https://proceedings.mlr.press/v331/jin26a.html)
   <a href="/files/V2_FRONT_poster.pdf" style="display:block; width:30%; margin-top:0.5rem;">
