@@ -20,3 +20,18 @@
 <meta name="theme-color" content="#f8f3e8"/>
 
 <!-- end custom head snippets -->
+
+<!-- Open external links and PDFs in a new tab -->
+<script>
+  document.addEventListener('DOMContentLoaded', function () {
+    document.querySelectorAll('a[href]').forEach(function (a) {
+      var url = new URL(a.href, location.href);
+      var external = /^https?:$/.test(url.protocol) && url.host !== location.host;
+      var pdf = /\.pdf$/i.test(url.pathname);
+      if (external || pdf) {
+        a.target = '_blank';
+        a.rel = 'noopener noreferrer';
+      }
+    });
+  });
+</script>

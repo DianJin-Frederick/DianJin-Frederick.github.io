@@ -1,0 +1,43 @@
+# Publications shown on the homepage and the Publications page (newest first).
+# image: thumbnail under /images/publications/; links: buttons shown under the authors.
+- venue: "IEEE L-CSS · CDC 2026 Oral"
+  title: "On the Sensitivity of the Subspace Predictor to Behavioral Perturbations"
+  url: "https://ieeexplore.ieee.org/document/11589305"
+  authors: "**Dian Jin**, Jeremy Coulson"
+  note: "Oral presentation in the invited session *Safe Planning and Control with Uncertainty Quantification* at the 65th IEEE Conference on Decision and Control (CDC 2026)."
+  image: "/images/publications/sensitivity-subspace-predictor.jpg"
+  links:
+    - label: "Paper"
+      url: "https://ieeexplore.ieee.org/document/11589305"
+    - label: "arXiv"
+      url: "https://arxiv.org/abs/2603.17256"
+    - label: "Code"
+      url: "https://github.com/DianJin-Frederick/subspace_prediction_under_behavioral_perturbation"
+
+- venue: "L4DC 2026"
+  title: "Online Subspace Learning on Flag Manifolds for System Identification"
+  url: "https://proceedings.mlr.press/v331/jin26a.html"
+  authors: "**Dian Jin**, Jeremy Coulson"
+  note: "Proceedings of the 8th Annual Learning for Dynamics and Control Conference, PMLR 331:2138–2150."
+  image: "/images/publications/front-flag-manifolds.jpg"
+  links:
+    - label: "Paper"
+      url: "https://proceedings.mlr.press/v331/jin26a.html"
+    - label: "arXiv"
+      url: "https://arxiv.org/abs/2511.06416"
+    - label: "Code"
+      url: "https://github.com/DianJin-Frederick/FRONT-experiments"
+    - label: "Poster"
+      url: "/files/V2_FRONT_poster.pdf"
+
+- venue: "NeurIPS 2023"
+  title: "Parameter-Efficient Tuning of Large-Scale Multimodal Foundation Model"
+  url: "https://proceedings.neurips.cc/paper_files/paper/2023/hash/32ebb6b560ee58abbdae834e5f37cb5d-Abstract-Conference.html"
+  authors: "Haixin Wang, Xinlong Yang, Jianlong Chang, **Dian Jin**, Jinan Sun, Shikun Zhang, Xiao Luo, Qi Tian"
+  note: "Advances in Neural Information Processing Systems 36, 15752–15774."
+  image: "/images/publications/aurora-neurips2023.jpg"
+  links:
+    - label: "Paper"
+      url: "https://proceedings.neurips.cc/paper_files/paper/2023/hash/32ebb6b560ee58abbdae834e5f37cb5d-Abstract-Conference.html"
+    - label: "Code"
+      url: "https://github.com/WillDreamer/Aurora"

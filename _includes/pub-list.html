@@ -1,0 +1,20 @@
+<div class="pub-list">
+  {% for pub in site.data.publications %}
+  <article class="pub">
+    <a class="pub__thumb" href="{{ pub.url }}" aria-hidden="true" tabindex="-1">
+      <img src="{{ pub.image }}" alt="" loading="lazy">
+    </a>
+    <div class="pub__body">
+      <div class="pub__venue">{{ pub.venue }}</div>
+      <h3 class="pub__title"><a href="{{ pub.url }}">{{ pub.title }}</a></h3>
+      <div class="pub__authors">{{ pub.authors | markdownify | remove: '<p>' | remove: '</p>' | strip }}</div>
+      {% if pub.note %}<div class="pub__note">{{ pub.note | markdownify | remove: '<p>' | remove: '</p>' | strip }}</div>{% endif %}
+      {% if pub.links %}
+      <div class="pub__links">
+        {% for link in pub.links %}<a class="pub__btn" href="{{ link.url }}">{{ link.label }}</a>{% endfor %}
+      </div>
+      {% endif %}
+    </div>
+  </article>
+  {% endfor %}
+</div>
