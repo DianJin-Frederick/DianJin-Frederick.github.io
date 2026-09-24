@@ -58,4 +58,5 @@ their own behavior from trajectory data and use them for planning and control**:
 {% include pub-list.html %}
 
 ## Academic Services
-- Reviewer for: L4DC'25, L4DC'26, CDC'26, Automatica
+- Journal reviewer: IEEE Transactions on Control Systems Technology (TCST), Automatica
+- Conference reviewer: L4DC'25, L4DC'26, CDC'26
