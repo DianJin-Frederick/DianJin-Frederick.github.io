@@ -1,6 +1,6 @@
 # Publications shown on the homepage and the Publications page (newest first).
 # image: thumbnail under /images/publications/; links: buttons shown under the authors.
-- venue: "IEEE L-CSS · CDC 2026 Oral"
+- venue: "IEEE L-CSS · CDC 2026"
   title: "On the Sensitivity of the Subspace Predictor to Behavioral Perturbations"
   url: "https://ieeexplore.ieee.org/document/11589305"
   authors: "**Dian Jin**, Jeremy Coulson"
