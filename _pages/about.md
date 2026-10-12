@@ -8,20 +8,13 @@ redirect_from:
 ---
 Hi, I am Dian Jin (金典), a Ph.D. student in Electrical and Computer
 Engineering (minor in Computer Science) at UW–Madison, advised by Prof.
-[Jeremy Coulson](https://jeremycoulson.github.io/). I work on **data-driven
-control and robot learning**: building predictive models of system behavior
+[Jeremy Coulson](https://jeremycoulson.github.io/). I work on **data-driven prediction
+control**: building predictive models of system behavior
 directly from input–output data, grounded in behavioral systems theory and
-DeePC, and using them for planning and control in robotic manipulation.
+DeePC.
 Previously, I received my B.S. (2022) from Soochow University and M.A. (2023)
 from UW–Madison, both in Mathematics. Outside research, I enjoy photography and
 the outdoors.
-
-<p class="hiring-note">
-  <strong>I am seeking a robotics research internship for Summer 2027.</strong>
-  If you think I would be a good fit, feel free to reach out at
-  <a href="mailto:djin38@wisc.edu">djin38@wisc.edu</a> or view my
-  <a href="/files/Dian_Jin_Resume.pdf">resume</a>.
-</p>
 
 ## News
 
@@ -38,19 +31,18 @@ the outdoors.
 
 ## Research Interests
 
-I develop **data-driven methods that let robots learn predictive models of
-their own behavior from trajectory data and use them for planning and control**:
+I develop **data-driven methods for learning predictive models of dynamical
+systems from trajectory data, and using them for prediction and control**:
 
-- **Predictive models for manipulation and planning** — learning local
-  trajectory models of robot behavior from offline data and demonstrations,
-  combined with graph-based motion planning and constrained predictive control.
-  Evaluated on MuJoCo reaching and contact-rich pushing tasks.
-- **Online adaptation from streaming data** — updating low-dimensional
-  predictive models of time-varying systems as new data arrive, via
-  optimization on Grassmann and flag manifolds, without knowing the system
-  order in advance.
-- **Robustness of learned models** — deriving prediction-error bounds that
-  quantify how estimation errors in learned models propagate to downstream
+- **Behavioral clusters for predictive control** — approximating trajectories
+  of nonlinear systems with collections of low-dimensional linear subspaces,
+  combined with graph-based reference selection and constrained predictive
+  control. Evaluated in numerical simulation on standard benchmark tasks.
+- **Online subspace learning** — updating low-dimensional predictive models of
+  time-varying systems as new data arrive, via optimization on Grassmann and
+  flag manifolds, without knowing the system order in advance.
+- **Sensitivity of data-driven predictors** — deriving prediction-error bounds
+  that quantify how errors in learned subspaces propagate to downstream
   predictions and control.
 
 ## Recent Publications

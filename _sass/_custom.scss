@@ -504,16 +504,6 @@ body {
   color: var(--global-text-color);
 }
 
-/* Availability callout */
-.page__content .hiring-note {
-  margin: 1.4em 0 0;
-  padding: 0.85em 1.1em;
-  border-left: 3px solid var(--global-link-color);
-  border-radius: 0 6px 6px 0;
-  background: color-mix(in srgb, var(--global-link-color) 7%, transparent);
-  line-height: 1.55;
-}
-
 /* ==========================================================================
    Publications: thumbnail + venue + title cards
    ========================================================================== */
