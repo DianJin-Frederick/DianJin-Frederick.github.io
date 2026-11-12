@@ -1,5 +1,18 @@
 # Publications shown on the homepage and the Publications page (newest first).
 # image: thumbnail under /images/publications/; links: buttons shown under the authors.
+- venue: "Preprint · 2026"
+  title: "Atlas-DeePC: Learning Behavioral Atlases for Predictive Control"
+  url: "https://dianjin-frederick.github.io/Atlas-DeePC/"
+  authors: "**Dian Jin**, Zhiyuan Jin, Jeremy Coulson"
+  image: "/images/publications/atlas-deepc.jpg"
+  links:
+    - label: "Project Page"
+      url: "https://dianjin-frederick.github.io/Atlas-DeePC/"
+    - label: "Paper"
+      url: "https://dianjin-frederick.github.io/Atlas-DeePC/paper/AtlasDeePC_manuscript.pdf"
+    - label: "Code"
+      url: "https://github.com/DianJin-Frederick/atlas-deepc"
+
 - venue: "IEEE L-CSS · CDC 2026"
   title: "On the Sensitivity of the Subspace Predictor to Behavioral Perturbations"
   url: "https://ieeexplore.ieee.org/document/11589305"

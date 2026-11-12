@@ -20,6 +20,10 @@ the outdoors.
 
 <ul class="news-list">
   <li>
+    <span class="news-date">Nov 2026</span>
+    <span class="news-text">Preprint <a href="https://dianjin-frederick.github.io/Atlas-DeePC/">“Atlas-DeePC: Learning Behavioral Atlases for Predictive Control”</a> is now public, with a <a href="https://dianjin-frederick.github.io/Atlas-DeePC/">project page</a> and <a href="https://github.com/DianJin-Frederick/atlas-deepc">code</a>.</span>
+  </li>
+  <li>
     <span class="news-date">Jul 2026</span>
     <span class="news-text">Paper <a href="https://ieeexplore.ieee.org/document/11589305">“On the sensitivity of the subspace predictor to behavioral perturbations”</a> accepted to <strong>IEEE Control Systems Letters (L-CSS)</strong>, with an oral presentation in the invited session <em>Safe Planning and Control with Uncertainty Quantification</em> at the <strong>65th IEEE Conference on Decision and Control (CDC 2026)</strong>, Honolulu, Hawaii.</span>
   </li>
@@ -45,7 +49,7 @@ systems from trajectory data, and using them for prediction and control**:
   that quantify how errors in learned subspaces propagate to downstream
   predictions and control.
 
-## Recent Publications
+## Recent Publications & Preprints
 
 {% include pub-list.html %}
 
