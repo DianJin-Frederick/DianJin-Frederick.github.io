@@ -1,0 +1,68 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="600" height="400" viewBox="0 0 600 400" role="img" aria-labelledby="title desc">
+  <title id="title">Atlas-DeePC</title>
+  <desc id="desc">A collection of local behavioral models informs predicted robot motions toward a target. Conceptual illustration.</desc>
+  <defs>
+    <!-- Each chart shows three two-link poses with the same base and link lengths. -->
+    <g id="chart-arms" fill="none" stroke="#fff5eb" stroke-width="3.5" stroke-linecap="round" stroke-linejoin="round">
+      <g transform="translate(75 77)">
+        <g transform="rotate(-150)" opacity="0.45">
+          <path d="M0 0H38"/>
+          <g transform="translate(38 0) rotate(50)"><path d="M0 0H32"/><circle cx="32" cy="0" r="2.5"/></g>
+          <circle cx="38" cy="0" r="3"/>
+        </g>
+        <g transform="rotate(-125)" opacity="0.7">
+          <path d="M0 0H38"/>
+          <g transform="translate(38 0) rotate(-10)"><path d="M0 0H32"/><circle cx="32" cy="0" r="2.5"/></g>
+          <circle cx="38" cy="0" r="3"/>
+        </g>
+        <g transform="rotate(-100)">
+          <path d="M0 0H38"/>
+          <g transform="translate(38 0) rotate(-50)"><path d="M0 0H32"/><circle cx="32" cy="0" r="2.5"/></g>
+          <circle cx="38" cy="0" r="3"/>
+        </g>
+        <circle r="4" fill="#fff5eb"/>
+      </g>
+    </g>
+    <linearGradient id="surface" x1="0" y1="0" x2="1" y2="1">
+      <stop stop-color="#f5d7a0"/>
+      <stop offset="1" stop-color="#e7a881"/>
+    </linearGradient>
+    <marker id="arrow" viewBox="0 0 10 10" refX="8" refY="5" markerWidth="6" markerHeight="6" orient="auto-start-reverse">
+      <path d="M0 0 10 5 0 10Z" fill="#8d4832"/>
+    </marker>
+  </defs>
+  <rect width="600" height="400" rx="12" fill="#ffffff"/>
+  <g transform="translate(0 -20)">
+
+  <!-- Local linear charts over a curved behavioral surface. -->
+  <path d="M27 215Q100 100 231 153L270 251Q145 212 76 302Z" fill="url(#surface)"/>
+  <g stroke-linejoin="round" stroke-width="3">
+    <path d="m38 183 84-36 46 68-84 35Z" fill="#b87792" stroke="#a26481"/>
+    <path d="m155 134 77 17 34 57-78-17Z" fill="#c990a4" stroke="#ad748e"/>
+    <path d="m119 245 88-47 44 64-88 48Z" fill="#9c4d72" stroke="#71344f" stroke-width="5"/>
+  </g>
+  <use href="#chart-arms" transform="matrix(.84 -.36 .46 .68 38 183)"/>
+  <use href="#chart-arms" transform="matrix(.77 .17 .33 .57 155 134)"/>
+  <use href="#chart-arms" transform="matrix(.88 -.47 .44 .64 119 245)"/>
+
+  <path d="M275 186Q309 159 346 184" fill="none" stroke="#8d4832" stroke-width="5" marker-end="url(#arrow)"/>
+
+  <!-- A fan of predicted poses and one emphasized motion toward the target. -->
+  <path d="M352 309H562" stroke="#e6dac6" stroke-width="3"/>
+  <g fill="none" stroke="#87afbb" stroke-width="4" stroke-linecap="round" stroke-linejoin="round">
+    <path d="m542 286-61-55-13-91" opacity="0.45"/>
+    <path d="m542 286-79-30-49-86" opacity="0.65"/>
+    <path d="m542 286-95-9-59-63" opacity="0.85"/>
+  </g>
+  <path d="m542 286-51-80 22-81" fill="none" stroke="#413b35" stroke-width="12" stroke-linecap="round" stroke-linejoin="round"/>
+  <path d="m542 286-99 12-66-39" fill="none" stroke="#24728a" stroke-width="9" stroke-linecap="round" stroke-linejoin="round"/>
+  <g fill="#ffffff" stroke-width="5">
+    <circle cx="491" cy="206" r="9" stroke="#413b35"/>
+    <circle cx="513" cy="125" r="8" stroke="#413b35"/>
+    <circle cx="443" cy="298" r="9" stroke="#24728a"/>
+    <circle cx="377" cy="259" r="7" stroke="#24728a"/>
+    <circle cx="542" cy="286" r="12" stroke="#413b35"/>
+  </g>
+  <path d="m350 235 18 18m0-18-18 18" stroke="#b75032" stroke-width="6" stroke-linecap="round"/>
+  </g>
+</svg>
