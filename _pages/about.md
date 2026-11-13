@@ -9,9 +9,9 @@ redirect_from:
 Hi, I am Dian Jin (金典), a Ph.D. student in Electrical and Computer
 Engineering (minor in Computer Science) at UW–Madison, advised by Prof.
 [Jeremy Coulson](https://jeremycoulson.github.io/). I work on **data-driven prediction
-control**: building predictive models of system behavior
+and control**: building predictive models of system behavior
 directly from input–output data, grounded in behavioral systems theory and
-DeePC.
+[DeePC](https://arxiv.org/abs/1811.05890).
 Previously, I received my B.S. (2022) from Soochow University and M.A. (2023)
 from UW–Madison, both in Mathematics. Outside research, I enjoy photography and
 the outdoors.
